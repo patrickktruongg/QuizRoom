@@ -1,0 +1,230 @@
+body {
+    background-image: url("../img/lobbyBackground.jpg");
+}
+
+font{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+
+/*Quiz In Play*/
+
+/*Quiz In Play */
+#qip_row1 {
+	width: 100%;
+	height: 100%;
+}
+
+#chat-blur-background-blurred {
+    margin-left: 37px;
+    position: absolute;
+    z-index: -100;
+    width: 355px;
+    -webkit-filter: blur(4px);
+    min-height: 100%;
+    max-height: 100%;
+    background: url(../img/lobbyBackground3.jpg);
+}
+.chatContainer,
+#chatDiv{
+	height: 980px;
+}
+
+.chatMessages-table,
+.chatContainer > .chatMessages{
+	min-height:94%;
+	max-height:94%;
+}
+
+.selectionText {
+	width: 400px;
+	padding: 40px;
+	font-size: 25px;
+}
+
+
+#qip_userTableContainer {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+  background:var(--main-bg-color);
+	height: 980px;
+}
+
+#qip_userTable {
+	border: 1px solid white;
+	vertical-align: top;
+	width: 100%;
+}
+
+#qip_userTable tr td{
+  border: 1px solid white;
+}
+
+#qip_userScrollable{
+  overflow:auto;
+  
+  width:100%;
+	height: 923px;
+}
+
+
+#userHeader{
+  background:var(--secondary-bg-color);
+}
+#userElement{
+  width: 500px;
+  background:var(--secondary-bg-color);
+}
+
+#placesImages{
+	margin:auto;
+	padding: 30px;
+}
+
+#placesButton{
+	
+	margin:auto;
+	padding-bottom: 30px;
+}
+
+.placeImages {
+	width: 300px;
+	height: 300px;
+  border: 2px solid white;
+}
+
+#secondPlace{
+	
+	width: 200px;
+	height: 200px;
+}
+#thirdPlace{
+	
+	width: 100px;
+	height: 100px;
+}
+
+button {
+  font-family: 'open sans', helvetica, arial, sans;
+}
+
+#leaveGame:hover {
+color: #08c;
+background: #e7e7e7;
+text-shadow: 0 1px 0px rgba(255, 255, 255, .25);
+border: 1px solid #08c;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+text-decoration:none;
+}
+
+
+
+
+
+#leaveGame {
+display: inline-block;
+padding: 10px 30px;
+font-size: 18px;
+line-height: 20px;
+color: #f1f1f1;
+text-align: center;
+text-shadow: 0 1px 0px rgba(255, 255, 255, .125);
+vertical-align: middle;
+cursor: pointer;
+background-color: #08c;
+border: 1px solid #e7e7e7;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+
+div#preloader {
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	z-index: 999; 
+	width: 100%; 
+	height: 100%; 
+	overflow: visible; 
+	background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; 
+}
+
+
+
+
+#qip_mainDiv {
+	border: 1px solid white;
+	display: inline-block;
+	vertical-align: top;
+	width: 55%;
+	text-align:center;
+}
+
+#qip_mainDivTable {
+	vertical-align: top;
+	text-align: center;
+	margin: auto;
+}
+
+#qip_mainDivTable tr td{
+  border: 1px solid white;
+}
+
+#question{
+	
+  vetical-align:middle;
+  text-align:center;
+}
+
+#qip_questionHolder{
+	display: table;
+  min-height: 100px;
+ margin:auto;
+}
+
+#qip_questionHolder2{
+  min-height: 100px;
+ display: table-cell; 
+ vertical-align: middle;
+}
+
+
+
+#selectionTD{
+  height:80px;
+  opacity:.7;
+  background:var(--secondary-bg-color);
+}
+#selectionTD :hover{
+  background:#41419C;
+}
+
+
+#selectionText{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+/*Quiz in play END*/
+
+#myProgress {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #315C2B;
+  border-radius: 30px;
+}
+#myBar {
+  width: 90%;
+  height: 30px;
+  background-color: #9E2B25;   
+  border-radius: 30px;
+}

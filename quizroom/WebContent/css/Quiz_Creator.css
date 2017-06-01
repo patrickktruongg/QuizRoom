@@ -1,0 +1,290 @@
+
+body {
+    background-image: url("../img/lobbyBackground.jpg");
+}
+
+font{
+  font-family: "City ", Georgia, serif;
+  color: black;
+  font-size: 20px;
+  text-align:center;
+}
+
+h1{
+	font-family: "City ", Georgia, serif;
+  color: white;
+  font-size: 40px;
+  padding:0;
+  margin:0;
+  display:inline-block;
+}
+
+h2{
+		font-family: "City ", Georgia, serif;
+  color: black;
+  font-size: 30px;
+  padding:0;
+  margin:0;
+}
+
+h3{
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+#error{
+	font-size:40px;
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-bottom:20px;
+}
+
+
+/*Quiz Maker*/
+
+/*Quiz Maker Top Half*/
+
+
+
+
+
+
+#qm_row1{
+    vertical-align: top;
+    margin-left:2.5%;
+}
+
+
+
+#qm_quizName{
+  margin-left:1%;
+  padding-bottom:1%;
+}
+
+
+#qm_nameInput{
+  height:40px;
+  width:79%;
+  vertical-align:top;
+  margin-top:.5%;
+}
+
+
+
+#subjectContainer{
+  margin-top:23%;
+  margin-left:27%;
+}
+
+
+#group2_type{
+  width:100%;
+  border: 0;
+}
+
+#group3_difficulty{
+  width:100%;
+  border: 0;
+}
+
+
+
+
+
+#group1_container{
+  vertical-align: top;
+  display: inline-block;
+  width:23.5%;
+  
+  height:200px;
+  border: 1px solid;
+  
+  background:var(--secondary-bg-color);
+  margin-left:13%;
+}
+
+#group2_container{
+  vertical-align: top;
+  display: inline-block;
+  width:23%;
+  
+  height:200px;
+  border: 1px solid;
+  
+  background:var(--secondary-bg-color);
+}
+
+#group3_container{
+  vertical-align: top;
+  display: inline-block;
+  width:23%;
+  
+  height:200px;
+  border: 1px solid;
+  
+  background:var(--secondary-bg-color);
+}
+
+
+
+#qm_row2{
+    display: inline-block;
+    width:94.25%;
+    vertical-align: top;
+    margin-left:2.5%;
+    margin-top:2%;
+  
+    height:700px;
+  
+  background:var(--secondary-bg-color);
+  
+  overflow:auto;
+}
+
+#qm_form2Holder{
+  margin-left:1.2%;
+  margin-top:1%;
+  margin-bottom:1%;
+  
+  background:var(--main-bg-color);
+  
+  width:97.5%;
+  height:40%;
+}
+
+#qm_form2_top{
+  padding-top:25px;
+  margin-left: 2.5%;
+}
+
+#qm_form2_top input{
+  margin-top:.7%;
+  width: 96.7%;
+  height:30px;
+}
+
+#qm_form2_middle{
+  margin: 2.5%;
+}
+
+#qm_form2_middle input{
+  width: 49.3%;
+  height:30px;
+}
+
+#qm_form2_bottom{
+  margin: 2.5%;
+}
+
+#qm_form2_bottom input{
+  width: 49.3%;
+  height:30px;
+}
+
+
+
+
+
+
+#new_container{
+  margin-left:2.2%;
+  width:46.15%;
+  font-size:40px;
+  
+  display: inline-block;
+}
+
+#qm_addQuestion{
+  width:100%;
+  font-size:40px;
+  
+  height:50px;
+}
+
+
+#leave_container{
+  margin-left:2.5%;
+  width:46.15%;
+  font-size:40px;
+  
+  display: inline-block;
+}
+
+#qm_backToBrowser{
+  width:100%;
+  font-size:40px;
+  height:50px;
+}
+
+
+
+
+
+#qm_saveQuiz{
+  margin-top:2%;
+  margin-left:2.5%;
+  width:95%;
+  font-size:40px;
+  
+  height:50px;
+}
+
+
+
+
+/*Quiz Maker END*/
+
+
+
+ /*https://codepen.io/tyrus/pen/gvIwE*/
+
+button {
+  font-family: 'open sans', helvetica, arial, sans;
+}
+
+.btn:hover {
+color: #08c;
+background: #e7e7e7;
+text-shadow: 0 1px 0px rgba(255, 255, 255, .25);
+border: 1px solid #08c;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+text-decoration:none;
+}
+
+
+
+
+
+.btn {
+display: inline-block;
+padding: 4px 14px;
+font-size: 18px;
+line-height: 20px;
+color: #f1f1f1;
+text-align: center;
+text-shadow: 0 1px 0px rgba(255, 255, 255, .125);
+vertical-align: middle;
+cursor: pointer;
+background-color: #08c;
+border: 1px solid #e7e7e7;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+
+.rnd {
+     border-radius: 5px;
+  background-color: #FFDAB7;
+  color: #29262B;
+  height:30px;
+    padding-left: 6px;
+    padding-right:5px;
+}
+

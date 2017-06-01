@@ -1,0 +1,120 @@
+
+/*CHAT HERE!! */
+
+.chatContainer{
+  margin-left:37px;
+  display: inline-block;
+	width: 355px;
+  border: 2px solid #ddd;
+}
+
+#chatDiv {
+	position:relative;
+	display: inline-block;
+}
+#chatTitle{
+	padding-left: 5px;
+}
+
+.chatMessages-table{
+	width: 355px;
+	table-layout:fixed;
+	display: block;
+	word-wrap: break-word;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.chatMessages td{
+	display: block;
+}
+
+#chatMessage{
+	padding: 0;
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 2px;
+	text-align: left;
+	color: white;
+}
+
+#chatForm{
+	margin:0;
+	padding:0;
+}
+
+#chat-blur-background-opaque  {
+	margin-left: 37px;
+	position: absolute;
+	z-index: -50;
+	width: 355px;
+	background: rgba(100, 100, 100, .3);
+  min-height: 100%;
+  max-height: 100%;
+}
+#chat-blur-background-blurred  {
+	margin-left: 37px;
+	position: absolute;
+	z-index: -100;
+	width: 355px;
+	-webkit-filter: blur(4px);
+  min-height: 100%;
+  max-height: 100%;
+	background: url(../img/lobbyBackground2.jpg);
+}
+
+
+.chatContainer > .chatHeader{
+  width: 100%;
+  background: #FFDAB7;
+  padding: 1px;
+  border-bottom: 1px solid #dddd;
+}
+
+.chatContainer > .chatHeader h3{
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #333;
+}
+
+.chatContainer > .chatMessages{
+  border-bottom: 1px solid #dddd;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 100%;
+  max-height: 100%;
+  font-family: "City ", Georgia, serif;
+}
+
+.chatContainer > .chatBottom form input[type='submit']{
+  width: 12%;
+  height: 28px;
+  font-weight: 700;
+  padding: 0;
+  color: #fff;
+  background-color: #22c08a;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color .10s ease-in-out;
+  user-select:none;
+  font-family: "City ", Georgia, serif;
+  margin-bottom: 5px;
+      margin-right: 1px;
+}
+
+.chatContainer > .chatBottom form input[type='text']{
+  width: 85%;
+  padding: 0;
+  padding-left: 6px;
+  border: 1px solid #ddd;
+  border-radius:5px;
+  margin: 0;
+  height: 30px;
+  margin-left: 5px;
+}
+
+#chatmsg {
+	background-color: #FFDAB7;
+}

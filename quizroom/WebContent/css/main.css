@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+	overflow: auto;
+	background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#error {
+	color: red;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom:0;
+	padding:0;
+}
+
+a {
+	color: white;
+  	text-decoration: none;
+  	text-align: center;
+  	margin: auto;
+}
+
+img {
+    border-radius: 50%;
+}
+
+td {
+	text-align: center;
+}
+
+div{
+	--main-bg-color: #593E24;
+	--secondary-bg-color: #FFDAB7;
+}

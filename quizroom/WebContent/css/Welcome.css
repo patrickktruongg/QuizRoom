@@ -1,0 +1,295 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: url(../img/welcomeimage.jpg);
+	background-size: cover;
+}
+
+.blurred-background {
+	height: 100%;
+	width: 60%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -100;
+	display: block;
+	background-position: center center;
+	transform: translate(-50%, -50%);
+	background: url(../img/welcomeimage2.jpg);
+	-webkit-background-size: cover;
+	-webkit-filter: blur(9px);
+}
+
+.opaque-background {
+	height: 100%;
+	width: 60%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -50;
+	display: block;
+	background-position: center center;
+	transform: translate(-50%, -50%);
+	background: rgba(100, 100, 100, .3);
+	-webkit-filter: blur(3px);
+}
+
+#Title {
+	font-family: "City ", Georgia, serif;
+	font-size: 100px;
+	height: 150px;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#description {
+	font-family: "City ", Georgia, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+}
+
+#description2 {
+	font-family: "City ", Georgia, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.description-items {
+	margin: 0;
+	text-align: center;
+	
+}
+
+.container {
+}
+a {
+	color: black;
+  
+}
+#Login-Form{
+	text-align: center;
+	
+}
+
+.Login-Choice {
+	width: 350px;
+	height: 50px;
+	font-size: 20px;
+	margin: 50px;
+}
+
+.back-button  {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	background-color: #22c08a;
+	border: none;
+	transition: background-color .10s ease-in-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#back-div {
+	position: relative;
+}
+
+.image-upload > input {
+    display: none;
+}
+.image-upload{
+	text-align: center;
+	padding: 10px 10px;
+}
+.avatar{
+	height: 70px;
+	width: 70px;
+}
+.upload-image {
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	margin: 20px 20px;
+	vertical-align: middle;
+}
+
+#preview img {
+	height: 70px;
+}
+
+.default-avatar-choices {
+	display: none;
+}
+
+.avatar-table {
+	text-align: center;
+	margin: auto;
+	position: relative;
+	left: -62px;
+}
+
+
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.login {
+  max-width: 280px;
+  margin: 30px auto;
+}
+
+.login-icon-field {
+  height: 250px;
+  width: 100%;
+}
+
+.login-icon {
+  margin: 50px 40px;
+}
+
+.login-form {
+  padding: 8px 20px 20px;
+  height: 120px;
+  width: 100%;
+}
+
+.guest-login-form {
+  padding: 8px 20px 20px;
+  width: 100%;
+}
+
+.signup-form {
+  padding: 8px 20px 20px;
+  width: 100%;
+}
+
+.username-row {
+  position: relative;
+  height: 40px;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+
+.password-row {
+  position: relative;
+  height: 40px;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+
+.password-icon,
+.user-icon {
+  margin: 5px;
+}
+
+.password-icon .key-path,
+.user-icon .user-path{
+  fill: rgba(10,10,10,0);
+  stroke: #fff;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  -webkit-animation: dash 1s .3s linear forwards;
+  animation: dash 1s .3s linear forwards;
+}
+
+.user-icon .user-path {
+  -webkit-animation: dash 1s .8s linear forwards;
+  animation: dash 1s .8s linear forwards;
+}
+
+input {
+  position: absolute;
+  width: 195px;
+  height: 30px;
+  margin: 5px 0;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(255,255,255,1);
+}
+
+input::-moz-placeholder {
+  color: rgba(255,255,255,1);
+}
+
+.call-to-action {
+  margin: 22px 0;
+  height: 130px;
+  width: 100%;
+}
+
+button {
+  width: 240px;
+  height: 40px;
+  padding: 0;
+  margin: 10px 20px 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #22c08a;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  font-family: "City ", Georgia, serif;
+}
+
+button:hover {
+  background-color: #26d69a;
+  -webkit-cursor: pointer;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #1eaa7a;
+}
+
+label,
+p a:hover {
+  -webkit-cursor: pointer;
+  cursor: pointer;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.modal{
+	padding-top: 255px;
+}
